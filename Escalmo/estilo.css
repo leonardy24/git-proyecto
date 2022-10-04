@@ -1,0 +1,69 @@
+.logo{
+    background:white;
+    font-weight: bold;
+    
+}
+
+.navegacion{
+    background: white;
+
+    
+        
+    font-weight: bold;
+}
+
+.rojo{
+    background: red;
+
+} 
+
+.tutaller{
+    padding-left: 05%;
+    padding-top: 13%;
+    color: white;
+}
+
+.textonegro{
+    background-color: white;
+    padding-left: 05%;
+    
+}
+
+.segundaimagen{
+    float: right;
+    margin-top: -10%;
+}
+
+
+.cuatrocuadros{
+    background-color: grey;
+    padding-top: 03%;
+    padding-bottom: 03%;
+    
+}
+
+.cuadrouno{
+
+}
+
+.cuadrodos{
+    
+}
+
+.cuadrotres{
+
+}
+
+.cuadrocuatro{
+}
+
+.trescartas {
+    background-color: white;
+    padding: 05%;
+}
+
+.autor{
+    background-color: gainsboro;
+    text-align: center;
+}
+
