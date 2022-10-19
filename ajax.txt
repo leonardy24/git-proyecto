@@ -1,0 +1,28 @@
+document.addEventListener("DOMContentLoaded", function (event) {
+
+
+
+
+    
+function Ajax() {
+    let pagina = new XMLHttpRequest();
+    let url = 'https://pokeapi.co/api/v2/pokemon'
+
+
+    pagina.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200){
+            console.log(this.responseText);
+        }
+    }
+
+
+    pagina.open("GET", url);
+    pagina.send();
+}
+
+    document.getElementById("boton")
+    addEventListener("click", function () {
+        Ajax();
+});
+
+});
