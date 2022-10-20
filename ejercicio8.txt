@@ -1,0 +1,19 @@
+let empezar = setInterval(() => {
+        console.log(arrayGestor)
+    }, 5000)
+
+
+function parar() {
+
+    let paraIntervalo = document.getElementById('parar')
+    paraIntervalo.addEventListener('click', boton)
+
+    function boton() {
+        return window.clearInterval(empezar), alert("se detuvo la operacion de setInterval");
+    };
+}
+
+window.addEventListener('load', parar);
+
+
+
